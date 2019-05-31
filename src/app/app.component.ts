@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'boring-gallery';
+  title    = "KJ's Sample Gallery";
+  subtitle = 'Not that the world has a shortage of gallery applications';
 }
