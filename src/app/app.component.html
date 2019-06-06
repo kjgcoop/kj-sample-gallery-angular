@@ -1,5 +1,46 @@
-<!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
-    <p>{{ subtitle }}</p>
+    <picture>
+        <source srcset="assets/th/1.jpg" media="(max-width: 1300px)">
+        <source srcset="assets/sm/1.jpg" media="(min-width: 1301px)">
+        <img alt="1" src="assets/sm/1.jpg" (click) = "showImage($event)">
+    </picture>
+
+    <picture>
+        <source srcset="assets/th/2.jpg" media="(max-width: 1300px)">
+        <source srcset="assets/sm/2.jpg" media="(min-width: 1301px)">
+        <img alt="2" src="assets/sm/2.jpg" (click) = "showImage($event)">
+    </picture>
+
+    <picture>
+        <source srcset="assets/th/3.jpg" media="(max-width: 1300px)">
+        <source srcset="assets/sm/3.jpg" media="(min-width: 1301px)">
+        <img alt="3" src="assets/sm/3.jpg" (click) = "showImage($event)">
+    </picture>
+
+    <picture>
+        <source srcset="assets/th/4.jpg" media="(max-width: 1300px)">
+        <source srcset="assets/sm/4.jpg" media="(min-width: 1301px)">
+        <img alt="4" src="assets/sm/4.jpg" (click) = "showImage($event)">
+    </picture>
+
+    <picture>
+        <source srcset="assets/th/5.jpg" media="(max-width: 1300px)">
+        <source srcset="assets/sm/5.jpg" media="(min-width: 1301px)">
+        <img alt="5" src="assets/sm/5.jpg" (click) = "showImage($event)">
+    </picture>
+
+    <picture>
+        <source srcset="assets/th/6.jpg" media="(max-width: 1300px)">
+        <source srcset="assets/sm/6.jpg" media="(min-width: 1301px)">
+        <img alt="6" src="assets/sm/6.jpg" (click) = "showImage($event)">
+    </picture>
+
+    <picture>
+        <source srcset="assets/th/7.jpg" media="(max-width: 1300px)">
+        <source srcset="assets/sm/7.jpg" media="(min-width: 1301px)">
+        <img alt="7" src="assets/sm/7.jpg" (click) = "showImage($event)">
+    </picture>
+
+    <div id="full">{{ placeholder }}</div>
 </div>
 <router-outlet></router-outlet>
